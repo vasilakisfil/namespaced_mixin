@@ -1,6 +1,6 @@
 # NamespacedMixin
 
-TODO: Namespaces your mixins. Proper Composition.
+Namespaces your mixins. Proper Composition.
 
 ## Installation
 
