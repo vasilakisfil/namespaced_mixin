@@ -63,6 +63,9 @@ class Example
 end
 ```
 
+Usually the methods of the mixins that you want to use should not keep state (act like traits),
+and support DI.
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/namespaced_mixin/fork )
