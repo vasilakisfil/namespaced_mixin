@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = NamespacedMixin::VERSION
   spec.authors       = ["Filippos Vasilakis"]
   spec.email         = ["vasilakisfil@gmail.com"]
-  spec.summary       = %q{TODO: Namespace your mixins in your classes.}
+  spec.summary       = %q{Namespace your mixins in your classes.}
   spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.1.0"
 end
