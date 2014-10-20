@@ -27,7 +27,7 @@ require 'namespaced_mixin'
 module TestModule
   module NestedModule
     def do_that
-      puts 'Do everything'
+      puts 'Do this'
     end
   end
 end
@@ -36,15 +36,11 @@ module TestModule1
   def do_that
     puts 'Doing that'
   end
-
-  def do_other
-    puts 'Doing that'
-  end
 end
 
 module TestModule2
   def do_that
-    puts 'Do this and that'
+    puts 'Do something else'
   end
 end
 
@@ -58,13 +54,13 @@ class Example
   include AmazingModule
 
   #rest of the code
+  
+  def stupid_method
+    if simply.do_that == mixins.do_that
+      namespaced.do_that #do something else
+    end
+  end
 end
-
-ex = Example.new
-ex.simply.do_that #Doing that
-ex.mixins.do_that #Do everything
-ex.namespaced.do_that #Do this and that
-
 ```
 
 ## Contributing
