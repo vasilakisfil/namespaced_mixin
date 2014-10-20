@@ -1,6 +1,6 @@
 # NamespacedMixin
 
-Namespaces your mixins. Proper Composition.
+Namespace your mixins. Proper Composition.
 
 ## Installation
 
